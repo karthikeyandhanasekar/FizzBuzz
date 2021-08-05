@@ -33,7 +33,10 @@ if (age%15 ===0)
 status.innerHTML="FizzBuzz"
 else if (age%3 === 0)
 status.innerHTML="Fizz"
-else
+else if(age%5 ===0)
 status.innerHTML = "Buzz"
+
+else
+status.innerHTML = age
 return false
 }

@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background : #2295A8;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#input 
+{
+    padding: 1rem;
+    width: 30%;
+    background-color:   rgb(109, 46, 109);
+    border-radius: 2%;
+}
+#input form table tr td,th
+{
+    padding-bottom: 2rem;
+}
+#input form table tr th 
+{
+    font-size: 2rem;
+    padding-right: 4rem;
+    text-align: right;
+    width: fit-content;
+
+}
+#input form table tr td 
+{
+    width: min-content;
+    text-align: center;
+
+}
+#input form table tr input[type="number"]
+{
+    font-size: 1rem;
+    width: 70%;
+    height: 2rem;
+
+}
+
+#input form table tr input[type="submit"],input[type="reset"]
+{
+
+    margin-right: 1rem;
+    border: none;
+    padding:10px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+}
+::placeholder
+{
+    text-align: right;
+    font-weight: bold;
+}
+#status
+{
+    color: white;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
